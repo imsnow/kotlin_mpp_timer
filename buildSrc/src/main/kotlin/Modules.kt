@@ -18,6 +18,10 @@ object Modules {
                 name = ":mpp-library:feature:list",
                 exported = true
             )
+            val setup = MultiPlatformModule(
+                name = ":mpp-library:feature:setup",
+                exported = true
+            )
         }
     }
 }
